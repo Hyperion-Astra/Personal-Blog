@@ -1,0 +1,145 @@
+body {
+	margin: 0px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #40514E;
+	background-color: #e0ebe8;
+}
+.top{
+	position: relative;
+	padding-top: 100px;	
+}
+.footer{ 
+	background-color: #c5ded7;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding: 50px 0px;
+}
+h1	{
+	margin: 100px auto 0px auto;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.625rem;
+	color: #1b7f69;
+	z-index: -1;
+}
+h2	{
+	font-size: 2.5rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #1e836c;
+	font-weight: normal;
+}
+h3	{
+	font-family: 'Montserrat', sans-serif;
+	color: #45b29a;
+}
+.btn {
+	color: #1e836c;
+	padding: 10px;
+	border-radius: 15px;
+}
+.btn:hover {
+	color:  #e0ebe8;
+	background-color:#1e836c ;
+}
+a {
+	color: #1e836c;
+	margin: auto 30px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+	color: #E4F6F6;
+}
+.b-p {
+	color: #e0ebe8;	
+	margin-top: 30px;
+}
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #545454;
+	border-width: 8px;
+	width: 4%;
+}
+iframe{
+	border-radius: 15px;
+}
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.profile {
+	width: 50%;
+	margin: 50px auto;
+}
+.skills-image1 {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+.skills-image2 {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+.my-image {
+	width: 50%;
+	margin-top: 30px;
+	border-radius: 25px;
+	object-fit: cover;
+	box-shadow: 0px 0px 50px #c5ded7;
+}
+.pro {
+	text-decoration: underline;
+}
+.cloud1 {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+}
+.cloud2 {
+	position: absolute;
+	top: 240px;
+	left: 50px
+}
+.social-icons{
+	background-color: azure;
+	padding: 0px auto;
+}
+.text{
+	display: inline;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	/* color: #c5ded7; */
+	/* color: lightgrey; */
+	font-weight: normal;
+}
+.icon {
+	float: left;
+	/* color: #c5ded7; */
+	/* color: lightgrey; */
+    width: 35px;
+    display: block;
+	/* margin: auto 30px; */
+    position: relative;
+    bottom: 0px;
+    transition: bottom 0.2s;
+}
+table{
+	margin: auto auto;
+	text-align: left;
+}
+tr{
+	display: inline-block;
+}
+.icon-hr {
+	display: inline-block;
+	height: 40px;
+	width: 0px;
+	margin: 10px auto 10px auto;
+	border-style: none none none solid;
+	border-radius: 3px;
+}
+.icon:hover {color:#c5ded7; bottom: 3px;}
